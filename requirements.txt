@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+alembic
+pydantic-settings
+
+# Выбери auth-подход осознанно (мы это обсуждали) и раскомментируй нужное:
+# --- Session-based ---
+# redis
+
+# --- JWT ---
+# python-jose[cryptography]
+# passlib[bcrypt]
