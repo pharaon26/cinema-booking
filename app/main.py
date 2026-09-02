@@ -5,8 +5,6 @@ app = FastAPI(title="Cinema Booking API")
 
 @app.get("/health")
 def health_check():
-    """Просто проверка, что сервер жив. Отсюда и начинай — прогони это,
-    прежде чем писать хоть одну модель."""
     return {"status": "ok"}
 
 
